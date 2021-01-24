@@ -1,0 +1,3 @@
+[submodule "monolith-unity"]
+	path = monolith-unity
+	url = https://github.com/bmotamer/monolith-unity
