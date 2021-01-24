@@ -8,34 +8,15 @@ namespace Monolith.Unity.Examples.TicTacToe.States
 
     public sealed class MainState : IState
     {
-
-        private const string PlayerPrefsKeyWinCount = "";
-
-        private int _winCount;
         
+        public GameMode Mode;
+
         public MainState(Game game)
         {
         }
-        
-        public int WinCount
-        {
-            get => _winCount;
-            set
-            {
-                if (_winCount != value)
-                {
-                    PlayerPrefs.SetInt(PlayerPrefsKeyWinCount, value);
-                    _winCount = value;
-                }
-            }
-        }
 
-        public GameMode Mode;
-    
         public bool Load(Game game)
         {
-            _winCount = Math.Max(0, PlayerPrefs.GetInt(PlayerPrefsKeyWinCount, 0));
-            
             return true;
         }
 
