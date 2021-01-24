@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: TicTacToe
+  m_EditorClassIdentifier: 
+  m_GroupName: TicTacToe
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 45af81061a84a404896ac75aaacb5207
+  m_SerializeEntries:
+  - m_GUID: 3003ec5450410a64eae3de78e470d48f
+    m_Address: Cross
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: a3ec73ae99a194d46bb657534f0a3fc8
+    m_Address: Circle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 564e3a64673507848a9c7d389f665de6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b3e7365c3bcc1564bb018ae228763300, type: 2}
+    - {fileID: 11400000, guid: d9791de60e2727b4ab373b9cdbfdb6ed, type: 2}
